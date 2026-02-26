@@ -941,18 +941,24 @@ ul.mob-menu-link li a {
 	margin-right: 10px;
 }
 .mob-menu-link {
-	height: 100vh;
-	display: block;
-	width: 0;
-	opacity: 0;
-	visibility: hidden;
-	transition: 0.3s;
+    height: 100vh;
+    display: block;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
 }
 .mob-menu-link.show-menu {
-	width: 100%;
-	visibility: visible;
-	opacity: 1;
-	transition: 0.3s;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s;
+    padding-top: calc(50% - 70px);
+	 top: 0 !important;
 }	
 .mob-menu-link a {
 	font-size: 24px !important;
