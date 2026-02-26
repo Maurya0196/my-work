@@ -742,10 +742,7 @@ a.project-item {
   letter-spacing: 2px;
   width: auto;
   margin: 0;
-  /* background: rgb(245 183 84 / 50%); */
   text-align: center;
-  /* clip-path: polygon(0 0, 100% 0, 81% 54%, 100% 100%, 0 100%, 14% 51%); */
-  /* padding: 20px; */
   white-space: nowrap;
 }
 .mob-menu-icon {
@@ -798,7 +795,18 @@ ul.mob-menu-link li a {
   position: sticky;
   top: 50px; /* Offset from the top */
 }
-
+@media screen and (max-width: 1199px) {
+.header .row .logo {
+	width: 25%;
+}
+	.header .row .menu {
+	width: 60%;
+}
+.cta-mnu {
+	width: 15%;
+}
+	
+}
 @media screen and (max-width: 991px) {
   .header .row {
     justify-content: space-between;
