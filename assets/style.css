@@ -953,7 +953,7 @@ ul.mob-menu-link li a {
     justify-content: center;
 }
 .mob-menu-link.show-menu {
-    width: 100%;
+    width: 90%;
     visibility: visible;
     opacity: 1;
     transition: 0.3s;
