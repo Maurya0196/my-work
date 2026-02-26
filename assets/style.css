@@ -200,7 +200,7 @@ ul.menu-link a {
 
 .footer {
   width: 100%;
-  background-image: url("/assets/images/ftr.webp");
+  background-image: url("./assets/images/ftr.webp");
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -211,7 +211,7 @@ ul.menu-link a {
 
 .banner-section {
   width: 100%;
-  background-image: url("/assets/images/bnr-img1.jpg");
+  background-image: url("./assets/images/bnr-img1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
