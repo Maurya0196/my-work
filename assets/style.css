@@ -777,7 +777,6 @@ ul.mob-menu-link {
   list-style: none;
   text-align: center;
   padding-block: 15px 20px;
-  display: none;
   transition: 0.3s ease;
   z-index: 999;
 }
@@ -820,12 +819,7 @@ ul.mob-menu-link li a {
   .banner-content h1 span {
     font-size: 50px;
   }
-  /* .banner-cta{
-    flex-direction: column;
-    gap: 10px;
-  } */
   .banner-cta button {
-    /* width: 120px; */
     padding: 12px;
   }
   .menu {
