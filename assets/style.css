@@ -957,8 +957,7 @@ ul.mob-menu-link li a {
     visibility: visible;
     opacity: 1;
     transition: 0.3s;
-    padding-top: calc(50% - 70px);
-	 top: 0 !important;
+	top: 0 !important;
 }	
 .mob-menu-link a {
 	font-size: 24px !important;
