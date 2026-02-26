@@ -800,7 +800,7 @@ ul.mob-menu-link li a {
   top: 50px; /* Offset from the top */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   .header .row {
     justify-content: space-between;
     padding-inline: 20px;
@@ -938,7 +938,22 @@ ul.mob-menu-link li a {
   .mob-menu-icon {
 	margin-right: 10px;
 }
-  ul.mob-menu-link {
+.mob-menu-link {
 	height: 100vh;
+	display: block;
+	width: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.mob-menu-link.show-menu {
+	width: 100%;
+	visibility: visible;
+	opacity: 1;
+	transition: 0.3s;
+}	
+.mob-menu-link a {
+	font-size: 24px !important;
+	font-weight: 700 !important;
 }
 }
