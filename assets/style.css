@@ -779,6 +779,7 @@ ul.mob-menu-link {
   padding-block: 15px 20px;
   display: none;
   transition: 0.3s ease;
+  z-index: 999;
 }
 ul.mob-menu-link li a {
   text-decoration: none;
@@ -931,4 +932,13 @@ ul.mob-menu-link li a {
   #education span.compony-name {
     width: 65%;
   }
+  .header .row .logo {
+  	font-size: 13px;
+  }
+  .mob-menu-icon {
+	margin-right: 10px;
+}
+  ul.mob-menu-link {
+	height: 100vh;
+}
 }
