@@ -183,13 +183,13 @@ ul.menu-link a {
 }
 
 .cta-mnu button {
-  width: 100%;
-  padding: 15px 12px;
-  font-size: 16px;
-  border: solid 1px #f5b754;
-  box-shadow: none;
-  background-color: #f5b754;
-  color: #000;
+	width: 100%;
+	padding: 10px 4px;
+	font-size: 15px;
+	border: solid 1px #f5b754;
+	box-shadow: none;
+	background-color: #f5b754;
+	color: #000;
 }
 
 .cta-mnu button:hover {
