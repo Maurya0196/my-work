@@ -13,11 +13,18 @@ const myRoles = [
 
 const workExperience = [
   {
+    role: "Frontend Developer",
+    office: "Web Dreamerz",
+    location: "Remote",
+    startDate: "March, 2026",
+    endDate: "Present",
+  },
+   {
     role: "Senior Frontend Developer",
     office: "Webriderz",
     location: "Ludhiana",
     startDate: "Dec, 2022",
-    endDate: "Present",
+    endDate: "March, 2026",
   },
 
   {
@@ -38,22 +45,40 @@ const workExperience = [
 ];
 
 const workSample = [
+   {
+    projectTitle: "Wine Country Motor Sports",
+    projectImg: "./assets/images/winemotor.jpg",
+    projectLink: "https://winecountrymotorsports.com/",
+    category: "shopify",
+  },
   {
     projectTitle: "Pettoonies",
     projectImg: "./assets/images/Pettoonies.jpg",
     projectLink: "https://pettoonies.com/",
     category: "shopify",
   },
-   {
-    projectTitle: "Playoffside",
-    projectImg: "./assets/images/Playoffside.jpg",
-    projectLink: "https://playoffside.com/",
+  {
+    projectTitle: "Handicrafts Home",
+    projectImg: "./assets/images/hh.jpg",
+    projectLink: "https://handicraftshome.com/",
     category: "shopify",
   },
   {
-    projectTitle: "Wine Country Motor Sports",
-    projectImg: "./assets/images/winemotor.jpg",
-    projectLink: "https://winecountrymotorsports.com/",
+    projectTitle: "Pettoonies",
+    projectImg: "./assets/images/Pettoonies.jpg",
+    projectLink: "https://pettoonies.com/",
+    category: "shopify",
+  },
+  {
+    projectTitle: "Mystery Guides",
+    projectImg: "./assets/images/mystery.jpg",
+    projectLink: "https://www.mysteryguides.co.uk/",
+    category: "shopify",
+  },
+  {
+    projectTitle: "Mystery Guides",
+    projectImg: "./assets/images/beautytailor.jpg",
+    projectLink: "https://beautytailornyc.com/",
     category: "shopify",
   },
   {
@@ -68,7 +93,7 @@ const workSample = [
     projectLink: "https://elveflow.com/",
     category: "wordpress",
   },
-   {
+  {
     projectTitle: "TestRated",
     projectImg: "./assets/images/TestRated.jpg",
     projectLink: "https://testrated.com/sv/",
@@ -81,8 +106,13 @@ const workSample = [
     projectLink: "https://www.entrepreneursiq.com/",
     category: "wordpress",
   },
-
-    {
+  {
+    projectTitle: "Electropro Zaptime",
+    projectImg: "./assets/images/zaptime.jpg",
+    projectLink: "https://electroprozaptime.com/",
+    category: "wordpress",
+  },
+  {
     projectTitle: "Dazlab",
     projectImg: "./assets/images/Dazlab.jpg",
     projectLink: "https://dazlab.global/",
