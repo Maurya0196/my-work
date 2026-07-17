@@ -64,12 +64,6 @@ const workSample = [
     category: "shopify",
   },
   {
-    projectTitle: "Pettoonies",
-    projectImg: "./assets/images/Pettoonies.jpg",
-    projectLink: "https://pettoonies.com/",
-    category: "shopify",
-  },
-  {
     projectTitle: "Mystery Guides",
     projectImg: "./assets/images/mystery.jpg",
     projectLink: "https://www.mysteryguides.co.uk/",
