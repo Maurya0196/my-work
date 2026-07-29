@@ -12,13 +12,6 @@ const myRoles = [
 ];
 
 const workExperience = [
-  {
-    role: "Frontend Developer",
-    office: "Web Dreamerz",
-    location: "Remote",
-    startDate: "March, 2026",
-    endDate: "Present",
-  },
    {
     role: "Senior Frontend Developer",
     office: "Webriderz",
